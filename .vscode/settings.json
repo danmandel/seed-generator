@@ -1,0 +1,59 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.bracketPairColorization.enabled": true,
+	"breadcrumbs.enabled": true,
+	"breadcrumbs.filePath": "on",
+	"diffEditor.ignoreTrimWhitespace": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true,
+		"source.organizeImports": true
+	},
+	// "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.parameterHints.enabled": true,
+	"editor.quickSuggestions": {
+		"comments": true,
+		"other": true,
+		"strings": true
+	},
+	"editor.renderWhitespace": "all",
+	"editor.rulers": [120],
+	"editor.tabSize": 2,
+	"eslint.alwaysShowStatus": true,
+	"eslint.enable": true,
+	"eslint.lintTask.enable": true,
+	"files.autoSave": "afterDelay",
+	"files.exclude": {
+		"**/.DS_Store": true,
+		"**/.git": true,
+		"**/.hg": true,
+		"**/.svn": true,
+		"**/CVS": true,
+		".npm-offline-cache": true,
+		"build": false,
+		"coverage": true,
+		"dist": false,
+		"lib": false,
+		"node_modules": false,
+		"npm": true
+	},
+	"files.insertFinalNewline": true,
+	"files.trimTrailingWhitespace": true,
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/node_modules/**": true,
+		"**/tmp/**": true
+	},
+	"outline.icons": true,
+	"outline.problems.badges": true,
+	"outline.problems.enabled": true,
+	"typescript.preferences.quoteStyle": "single",
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"typescript.validate.enable": true,
+	"window.zoomLevel": 0,
+	"workbench.activityBar.visible": true,
+	"workbench.colorTheme": "Atom One Dark",
+	"workbench.editor.labelFormat": "short"
+}
