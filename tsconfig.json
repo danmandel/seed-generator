@@ -72,12 +72,10 @@
 		"suppressImplicitAnyIndexErrors": false,
 		"target": "esnext",
 		"traceResolution": false,
-		"types": ["jest"],
+		"types": ["jest", "node"],
 		"watch": false
 	},
 	// "include": ["./src/types/**.*.ts", "./src/components/**.*.tsx"]
 	"include": ["src/**/*.ts", "./.eslintrc.js"],
 	"exclude": ["node_modules", "!node_modules/@types"]
 }
-
-
