@@ -10,6 +10,10 @@ purposes.
 
 2. The 24th word is a checksum derived from the other 23 words.
 
-# Relevant Links
+## Usage
 
-http://ledgernano.tips/
+`npx ts-node ./examples/logSeedPhrase.ts`
+
+# Relevant Links
+* https://support.ledger.com/hc/en-us/articles/4415198323089-How-Ledger-device-generates-24-word-recovery-phrase?docs=true
+* http://ledgernano.tips/
